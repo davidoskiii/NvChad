@@ -5,12 +5,15 @@
 local M = {}
 
 M.ui = {
-	theme = "onedark",
+	theme = "catppuccin",
+  telescope = {
+    style="bordered"
+  },
 
-	-- hl_override = {
-	-- 	Comment = { italic = true },
-	-- 	["@comment"] = { italic = true },
-	-- },
+	hl_override = {
+		Comment = { italic = true },
+	  ["@comment"] = { italic = true },
+	},
 }
 
 return M
